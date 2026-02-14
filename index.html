@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sagar Damgude - Java Full Stack Developer Portfolio">
+    <title>Sagar Damgude | Java Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">SD</a>
+            <button class="nav__toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu">
+                <li><a href="#about" class="nav__link">About</a></li>
+                <li><a href="#experience" class="nav__link">Experience</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#education" class="nav__link">Education</a></li>
+                <li><a href="#awards" class="nav__link">Awards</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero__content container">
+                <div class="hero__profile-wrap">
+                    <picture>
+                        <source srcset="images/profile_image.png" type="image/png">
+                        <img src="images/profile_image.png" alt="Sagar Damgude" class="hero__profile" onerror="this.style.display='none'; this.parentElement.nextElementSibling.style.display='flex';">
+                    </picture>
+                    <div class="hero__profile-fallback" style="display:none;"><span>SD</span></div>
+                </div>
+                <p class="hero__greeting">Hello, I'm</p>
+                <h1 class="hero__name">Sagar Damgude</h1>
+                <p class="hero__title">Java Full Stack Developer</p>
+                <p class="hero__company"><i class="fa-solid fa-building"></i> C-Edge Technologies</p>
+                <a href="Sagar Damgude-Resume.pdf" class="btn btn--primary" download><i class="fa-solid fa-download"></i> Download Resume</a>
+            </div>
+            <div class="hero__scroll">
+                <span>Scroll</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section--alt reveal" id="about">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-user"></i> About Me</h2>
+                <div class="about__wrapper">
+                    <div class="about__content">
+                        <p class="about__text">
+                            Results-driven Software Engineer with <strong>2.8+ years</strong> of experience developing applications 
+                            using Java, Spring MVC, and Spring Boot. Proficient in React.js for building responsive UIs 
+                            and skilled in managing Linux deployments.
+                        </p>
+                        <p class="about__text">
+                            Experienced in creating RESTful APIs, implementing CI/CD processes, and performing SLA 
+                            calculations. Strong in client interactions and requirements gathering, ensuring high-quality 
+                            solutions that drive business success.
+                        </p>
+                    </div>
+                    <div class="about__highlights">
+                        <span class="about__tag"><i class="fa-solid fa-check"></i> Full Stack</span>
+                        <span class="about__tag"><i class="fa-solid fa-check"></i> REST APIs</span>
+                        <span class="about__tag"><i class="fa-solid fa-check"></i> CI/CD</span>
+                        <span class="about__tag"><i class="fa-solid fa-check"></i> Client-Facing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section reveal" id="experience">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date">Aug 2025 — Present</span>
+                            <h3 class="timeline__role">Java Software Developer</h3>
+                            <p class="timeline__company">C-Edge Technologies Limited</p>
+                            <p class="timeline__location"><i class="fa-solid fa-location-dot"></i> Thane, Maharashtra · On-site</p>
+                            <ul class="timeline__tech">
+                                <li>Spring Boot</li>
+                                <li>Spring MVC</li>
+                                <li>Spring Security</li>
+                                <li>Hibernate</li>
+                                <li>MySQL</li>
+                                <li>Oracle Database</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="timeline__item">
+                        <div class="timeline__marker"></div>
+                        <div class="timeline__content">
+                            <span class="timeline__date">Jan 2023 — Aug 2025</span>
+                            <h3 class="timeline__role">Java Software Developer · Team Lead</h3>
+                            <p class="timeline__company">Velox Solutions</p>
+                            <p class="timeline__location"><i class="fa-solid fa-location-dot"></i> Navi Mumbai, Maharashtra · Remote</p>
+                            <ul class="timeline__list">
+                                <li>Led client interactions to capture business requirements and managed end-to-end project lifecycle</li>
+                                <li>Implemented Spring MVC for robust data processing solutions adhering to MVC architecture</li>
+                                <li>Designed SLA calculation workflows achieving 95% SLA compliance rate</li>
+                                <li>Developed automated agents for email notifications, ticket auto-assignment and closure—99% reduction in manual effort</li>
+                            </ul>
+                            <ul class="timeline__tech">
+                                <li>Java</li>
+                                <li>Spring MVC</li>
+                                <li>Hibernate</li>
+                                <li>Multithreading</li>
+                                <li>JavaScript</li>
+                                <li>SQL</li>
+                                <li>Bootstrap</li>
+                                <li>jQuery</li>
+                                <li>Linux</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section--alt reveal" id="skills">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-code"></i> Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill__category skill__category--blue">
+                        <div class="skill__icon"><i class="fa-solid fa-laptop-code"></i></div>
+                        <h4 class="skill__label">Programming Languages</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">Java</span>
+                            <span class="skill__pill">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill__category skill__category--purple">
+                        <div class="skill__icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <h4 class="skill__label">Frameworks & Architecture</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">Spring Boot</span>
+                            <span class="skill__pill">Spring MVC</span>
+                            <span class="skill__pill">Bootstrap</span>
+                            <span class="skill__pill">jQuery</span>
+                        </div>
+                    </div>
+                    <div class="skill__category skill__category--cyan">
+                        <div class="skill__icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h4 class="skill__label">Technologies & Tools</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">Lambda</span>
+                            <span class="skill__pill">Linux</span>
+                            <span class="skill__pill">Multithreading</span>
+                        </div>
+                    </div>
+                    <div class="skill__category skill__category--green">
+                        <div class="skill__icon"><i class="fa-solid fa-database"></i></div>
+                        <h4 class="skill__label">Databases</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">SQL</span>
+                            <span class="skill__pill">Hibernate</span>
+                            <span class="skill__pill">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill__category skill__category--orange">
+                        <div class="skill__icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h4 class="skill__label">SDLC</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">Agile</span>
+                            <span class="skill__pill">Scrum</span>
+                        </div>
+                    </div>
+                    <div class="skill__category skill__category--pink">
+                        <div class="skill__icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h4 class="skill__label">Soft Skills</h4>
+                        <div class="skill__pills">
+                            <span class="skill__pill">Client Interaction</span>
+                            <span class="skill__pill">Requirements Gathering</span>
+                            <span class="skill__pill">Problem Solving</span>
+                            <span class="skill__pill">Team Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section reveal" id="projects">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-folder-open"></i> Projects</h2>
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <div class="project__header">
+                            <span class="project__number">01</span>
+                            <div class="project__icon project__icon--ticket"><i class="fa-solid fa-ticket"></i></div>
+                        </div>
+                        <h3 class="project__name">ITSM-Help Desk</h3>
+                        <ul class="project__list">
+                            <li><i class="fa-solid fa-circle-check"></i> Designed and developed a multi-tenant SaaS-based helpdesk ticketing tool for multiple organizations</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Integrated LDAP Active Directory for seamless role-based login</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Implemented SLA reporting, problem ticket logic, and service request functionalities</li>
+                        </ul>
+                        <div class="project__tech-wrap">
+                            <span class="project__tech-tag">Spring MVC</span>
+                            <span class="project__tech-tag">JavaScript</span>
+                            <span class="project__tech-tag">Bootstrap</span>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__header">
+                            <span class="project__number">02</span>
+                            <div class="project__icon project__icon--shield"><i class="fa-solid fa-shield-halved"></i></div>
+                        </div>
+                        <h3 class="project__name">Active Directory Monitoring Tool</h3>
+                        <ul class="project__list">
+                            <li><i class="fa-solid fa-circle-check"></i> Developed custom web-based AD management tool—40% improvement in bulk user/group administration</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Achieved 30% reduction in AD monitoring time with secure LDAP connections</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Optimized system performance by 25% through Spring MVC R&D</li>
+                        </ul>
+                        <div class="project__tech-wrap">
+                            <span class="project__tech-tag">Spring MVC</span>
+                            <span class="project__tech-tag">LDAP</span>
+                            <span class="project__tech-tag">Single-Agent</span>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__header">
+                            <span class="project__number">03</span>
+                            <div class="project__icon project__icon--server"><i class="fa-solid fa-server"></i></div>
+                        </div>
+                        <h3 class="project__name">Asset Grid Asset Management</h3>
+                        <ul class="project__list">
+                            <li><i class="fa-solid fa-circle-check"></i> Comprehensive IT asset lifecycle management solution for compliance and IP-based asset tracking</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Contract management, software license tracking, purchase order monitoring</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Full visibility for software and hardware assets through unified agent</li>
+                        </ul>
+                        <div class="project__tech-wrap">
+                            <span class="project__tech-tag">Spring MVC</span>
+                            <span class="project__tech-tag">Asset Management</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section section--alt reveal" id="education">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+                <div class="education__card">
+                    <div class="education__badge"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="education__content">
+                        <h3 class="education__degree">Bachelor of Science in Information Technology</h3>
+                        <p class="education__university"><i class="fa-solid fa-school"></i> University of Mumbai</p>
+                        <div class="education__meta">
+                            <span class="education__date"><i class="fa-regular fa-calendar"></i> Aug 2019 — June 2022</span>
+                            <span class="education__grade"><i class="fa-solid fa-award"></i> Grade: B</span>
+                        </div>
+                        <div class="education__activities">
+                            <span class="education__activity-tag"><i class="fa-solid fa-futbol"></i> Cricket</span>
+                            <span class="education__activity-tag"><i class="fa-solid fa-trophy"></i> Kabaddi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section class="section reveal" id="awards">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-trophy"></i> Awards & Certificates</h2>
+                <div class="awards__grid">
+                    <div class="award__card">
+                        <div class="award__icon"><i class="fa-solid fa-certificate"></i></div>
+                        <span class="award__year">2022</span>
+                        <h3 class="award__name">Java Full Stack Developer</h3>
+                        <p class="award__desc">Completed Java Full Stack Developer course at Anudip Foundation</p>
+                    </div>
+                    <div class="award__card">
+                        <div class="award__icon"><i class="fa-solid fa-star"></i></div>
+                        <span class="award__year">2024</span>
+                        <h3 class="award__name">Rising Star Award</h3>
+                        <p class="award__desc">Recognized for effective team leadership and consistently delivering projects on schedule</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section--alt section--contact reveal" id="contact">
+            <div class="container">
+                <h2 class="section__title"><i class="fa-solid fa-envelope"></i> Get In Touch</h2>
+                <div class="contact__info">
+                    <a href="mailto:sagardamgude904@gmail.com" class="contact__link">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        sagardamgude904@gmail.com
+                    </a>
+                    <a href="tel:+918108611092" class="contact__link">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        +91 8108611092
+                    </a>
+                    <p class="contact__location">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        Mumbai, Maharashtra, India
+                    </p>
+                </div>
+                <a href="Sagar Damgude-Resume.pdf" class="btn btn--primary" download>Download Resume</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer reveal">
+        <div class="container">
+            <p class="footer__text">© 2025 Sagar Damgude. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
